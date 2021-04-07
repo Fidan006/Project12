@@ -9,5 +9,9 @@ class Student {
 	int age;
 
 public:
-
+	void show() {
+		cout << name << endl;
+		cout << surname << endl;
+		cout << age << endl;
+	}
 };
